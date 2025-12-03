@@ -1,0 +1,16 @@
+target/
+*.class
+*.war
+
+.vscode/
+.settings/
+.classpath
+.project
+*.launch
+
+
+*.log
+
+
+.DS_Store
+Thumbs.db

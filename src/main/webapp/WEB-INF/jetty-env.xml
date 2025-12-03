@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd">
+
+<Configure id="wac" class="org.eclipse.jetty.webapp.WebAppContext">
+    
+    <New id="MarbetesDB" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg></Arg> <Arg>jdbc/MarbetesDB</Arg> <Arg>
+            <New class="org.apache.commons.dbcp2.BasicDataSource">
+                <Set name="driverClassName">org.mariadb.jdbc.Driver</Set>
+                <Set name="url">jdbc:mariadb://localhost:3307/db_marbetes</Set>
+                
+                <Set name="username">root</Set>
+                <Set name="password"></Set> 
+                
+                <Set name="maxTotal">20</Set>
+            </New>
+        </Arg>
+    </New>
+</Configure>
