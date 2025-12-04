@@ -50,6 +50,7 @@ Venta de Marbetes: Búsqueda de vehículos en tiempo real.
 * Tener un servidor de base de datos **MariaDB** o **MySQL** corriendo.
 
 <H4> 2. Configuración de la Base de Datos </H4>
+
 El proyecto incluye el script necesario para crear la estructura y los datos de prueba.
 
 1.  Ve a la carpeta `/scrips de la db` de este repositorio.
@@ -57,6 +58,7 @@ El proyecto incluye el script necesario para crear la estructura y los datos de 
 3.  Ejecuta todo el script para crear la base de datos `db_marbetes` y las tablas necesarias.
 
 <H4> 3. Configuración de Conexión (Importante) </H4>
+
 El proyecto utiliza un Pool de Conexiones configurado en Jetty.
 Si tu base de datos tiene contraseña o usa un puerto diferente al 3306 (ej. 3307), edita el archivo:
 `src/main/webapp/WEB-INF/jetty-env.xml`
@@ -68,9 +70,12 @@ Si tu base de datos tiene contraseña o usa un puerto diferente al 3306 (ej. 330
 
 ```
 <H4>4. Despliegue y Ejecución de la Aplicación</H4>
+
 Navegación al Directorio Raíz: Abra la terminal de comandos (CMD, PowerShell, o Bash) y navegue a la ubicación del archivo pom.xml, en caso de estar en vs code puede abir una terminal (ctrl j) y saltarse este paso e ejecutar el comando de mas a delante:
+
 cd [RUTA DEL PROYECTO]/demo1
 
 Ejecute el ciclo de vida de Maven para limpiar, compilar, resolver dependencias e iniciar el servidor Eclipse Jetty:
+
 mvn clean install jetty:run
 
