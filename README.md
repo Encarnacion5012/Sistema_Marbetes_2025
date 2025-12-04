@@ -2,7 +2,7 @@
 
 * Proyecto Final - Lenguajes de Programación 2
 * Universidad: UNICDA
-* Fecha: Diciembre 2025
+* Fecha: 04 Diciembre 2025
 
 
 <h2> Descripción</h2>
