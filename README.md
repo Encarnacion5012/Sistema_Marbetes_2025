@@ -11,13 +11,13 @@ El sistema permite buscar vehículos por placa, calcular automáticamente el cos
 
 <H2> Características Principales:</H2>
 
-a. Login Institucional: Acceso simulado mediante sesión HTTP.
+1. Login Institucional: Acceso simulado mediante sesión HTTP.
 Venta de Marbetes: Búsqueda de vehículos en tiempo real.
     * Cálculo automático de costos (Costo bajo para años < 2020, Costo alto para >= 2020).
     * Asignación secuencial de números de marbete.
     * Validación de vehículos ya renovados.
-b. Reportes: Listado detallado de ventas filtrado por rango de fechas, mostrando el vendedor responsable.
-c. Manejo de Errores: Control de excepciones amigable para el usuario (evita pantallas de error 500).
+2. Reportes: Listado detallado de ventas filtrado por rango de fechas, mostrando el vendedor responsable.
+3. Manejo de Errores: Control de excepciones amigable para el usuario (evita pantallas de error 500).
     
 ---
 
