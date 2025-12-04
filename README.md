@@ -4,12 +4,14 @@
 * Universidad: UNICDA
 * Fecha: 04 Diciembre 2025
 <H2> Integrantes:</H2>
+
 * Cristopher Genao 2024-0116
 * EstainlinEncarnacion 2024-0181
 * Yansell Rosario 2024-0090
 
 
 <h2> Descripción</h2>
+
 Aplicación web desarrollada en Java para gestionar el proceso de renovación y venta de marbetes vehiculares.
 El sistema permite buscar vehículos por placa, calcular automáticamente el costo del impuesto basado en el año de fabricación (reglas de negocio 2025-2026) y generar reportes de recaudación detallados.
 
