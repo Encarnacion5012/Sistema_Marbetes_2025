@@ -1,8 +1,8 @@
 <H1>Sistema de Gestión de Venta de Marbetes</H1>
 
-Proyecto Final - Lenguajes de Programación 2
-Universidad: UNICDA
-Fecha: Diciembre 2025
+* Proyecto Final - Lenguajes de Programación 2
+* Universidad: UNICDA
+* Fecha: Diciembre 2025
 
 
 <h2> Descripción</h2>
@@ -13,9 +13,9 @@ El sistema permite buscar vehículos por placa, calcular automáticamente el cos
 
 Login Institucional: Acceso simulado mediante sesión HTTP.
 Venta de Marbetes: Búsqueda de vehículos en tiempo real.
-    . Cálculo automático de costos (Costo bajo para años < 2020, Costo alto para >= 2020).
-    . Asignación secuencial de números de marbete.
-    . Validación de vehículos ya renovados.
+    * Cálculo automático de costos (Costo bajo para años < 2020, Costo alto para >= 2020).
+    * Asignación secuencial de números de marbete.
+    * Validación de vehículos ya renovados.
 Reportes: Listado detallado de ventas filtrado por rango de fechas, mostrando el vendedor responsable.
 Manejo de Errores: Control de excepciones amigable para el usuario (evita pantallas de error 500).
     
@@ -23,13 +23,13 @@ Manejo de Errores: Control de excepciones amigable para el usuario (evita pantal
 
 <h2>Tecnologías Utilizadas</h2>
 
-. Lenguaje:** Java 17 (JDK 17)
-. Servidor de Aplicaciones: Eclipse Jetty (vía Maven Plugin)
-. Base de Datos: MariaDB / MySQL
-. ORM: EclipseLink (JPA 2.2)
-. Frontend: JSP, JSTL, CSS3
-. Gestor de Dependencias: Apache Maven
-. Conexión: Pool de conexiones JNDI (Commons DBCP2)
+* Lenguaje:** Java 17 (JDK 17)
+* Servidor de Aplicaciones: Eclipse Jetty (vía Maven Plugin)
+* Base de Datos: MariaDB / MySQL
+* ORM: EclipseLink (JPA 2.2)
+* Frontend: JSP, JSTL, CSS3
+* Gestor de Dependencias: Apache Maven
+* Conexión: Pool de conexiones JNDI (Commons DBCP2)
 
 ---
 
