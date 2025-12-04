@@ -9,7 +9,7 @@ Fecha: Diciembre 2025
 Aplicación web desarrollada en Java para gestionar el proceso de renovación y venta de marbetes vehiculares.
 El sistema permite buscar vehículos por placa, calcular automáticamente el costo del impuesto basado en el año de fabricación (reglas de negocio 2025-2026) y generar reportes de recaudación detallados.
 
-<H> Características Principales:</H2>
+<H2> Características Principales:</H2>
 
 Login Institucional: Acceso simulado mediante sesión HTTP.
 Venta de Marbetes: Búsqueda de vehículos en tiempo real.
@@ -46,8 +46,8 @@ Manejo de Errores: Control de excepciones amigable para el usuario (evita pantal
 <H4> 2. Configuración de la Base de Datos </H4>
 El proyecto incluye el script necesario para crear la estructura y los datos de prueba.
 
-1.  Ve a la carpeta `/database` de este repositorio.
-2.  Abre el archivo `script_marbetes.sql` en tu gestor de BD (HeidiSQL, DBeaver, Workbench).
+1.  Ve a la carpeta `/scrips de la db` de este repositorio.
+2.  Abre el archivo `Proyecto final prog 2.sql` en tu gestor de BD (HeidiSQL, DBeaver, Workbench).
 3.  Ejecuta todo el script para crear la base de datos `db_marbetes` y las tablas necesarias.
 
 <H4> 3. Configuración de Conexión (Importante) </H4>
