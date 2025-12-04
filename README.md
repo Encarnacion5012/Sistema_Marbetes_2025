@@ -65,3 +65,12 @@ Si tu base de datos tiene contraseña o usa un puerto diferente al 3306 (ej. 330
 <Set name="url">jdbc:mariadb://localhost:3306/db_marbetes</Set>
 <Set name="username">root</Set>
 <Set name="password">TU_CONTRASEÑA</Set>
+
+```
+<H4>4. Despliegue y Ejecución de la Aplicación</H4>
+Navegación al Directorio Raíz: Abra la terminal de comandos (CMD, PowerShell, o Bash) y navegue a la ubicación del archivo pom.xml, en caso de estar en vs code puede abir una terminal (ctrl j) y saltarse este paso e ejecutar el comando de mas a delante:
+cd [RUTA DEL PROYECTO]/demo1
+
+Ejecute el ciclo de vida de Maven para limpiar, compilar, resolver dependencias e iniciar el servidor Eclipse Jetty:
+mvn clean install jetty:run
+
