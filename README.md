@@ -22,15 +22,15 @@ Manejo de Errores: Control de excepciones amigable para el usuario (evita pantal
 ---
 
 <h2>Tecnologías Utilizadas</h2>
-<P>
-Lenguaje:** Java 17 (JDK 17)
-Servidor de Aplicaciones: Eclipse Jetty (vía Maven Plugin)
-Base de Datos: MariaDB / MySQL
-ORM: EclipseLink (JPA 2.2)
-Frontend: JSP, JSTL, CSS3
-Gestor de Dependencias: Apache Maven
-Conexión: Pool de conexiones JNDI (Commons DBCP2)
-</P>
+
+. Lenguaje:** Java 17 (JDK 17)
+. Servidor de Aplicaciones: Eclipse Jetty (vía Maven Plugin)
+. Base de Datos: MariaDB / MySQL
+. ORM: EclipseLink (JPA 2.2)
+. Frontend: JSP, JSTL, CSS3
+. Gestor de Dependencias: Apache Maven
+. Conexión: Pool de conexiones JNDI (Commons DBCP2)
+
 ---
 
 <H2> Instrucciones de Instalación y Ejecución </H2>
