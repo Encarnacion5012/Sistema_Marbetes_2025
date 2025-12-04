@@ -3,7 +3,7 @@
 * Proyecto Final - Lenguajes de Programación 2
 * Universidad: UNICDA
 * Fecha: 04 Diciembre 2025
-* Integrantes:
+<H2> Integrantes:</H2>
 * Cristopher Genao 2024-0116
 * EstainlinEncarnacion 2024-0181
 * Yansell Rosario 2024-0090
