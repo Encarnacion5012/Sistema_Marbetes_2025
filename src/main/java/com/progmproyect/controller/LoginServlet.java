@@ -15,11 +15,11 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String usuario = request.getParameter("usuario");
         
-        // Guardamos el usuario en la SESIÓN (Memoria temporal del navegador)
+        
         HttpSession session = request.getSession();
         session.setAttribute("usuarioLogueado", usuario);
         
-        // Redirigimos al menú principal
+       
         response.sendRedirect("menu.jsp");
     }
 }
