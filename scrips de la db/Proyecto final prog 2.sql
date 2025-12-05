@@ -76,4 +76,28 @@ VALUES ('R555', 'Honda', 'Civic', 2018, '001-5555555-5', 1);
 
 ALTER TABLE renovaciones MODIFY id INT AUTO_INCREMENT;
 
+INSERT INTO vehiculos (placa, marca, modelo, ano_fabricacion, identificacion_propietario, renovado) VALUES 
+('B-9876', 'Nissan', 'Sentra', 2012, '001-9999001-1', FALSE), 
+('C-5432', 'Chevrolet', 'Tahoe', 2024, '001-8888002-2', FALSE), 
+('D-1111', 'Mazda', 'CX-5', 2019, '001-7777003-3', FALSE),    
+('E-2222', 'Suzuki', 'Vitara', 2021, '001-6666004-4', FALSE),   
+('F-3333', 'Ford', 'Mustang', 2015, '001-5555005-5', FALSE),    
+('H-4444', 'Toyota', 'RAV4', 2020, '001-4444006-6', FALSE),     
+('J-5555', 'Honda', 'Accord', 2008, '001-3333007-7', FALSE),    
+('K-6666', 'Hyundai', 'Tucson', 2023, '001-2222008-8', FALSE);  
+
+USE db_marbetes; 
+
+INSERT INTO marbetes (secuencia, anio_inicio_renovacion, anio_fin_renovacion, vendido) VALUES 
+(1004, 2025, 2026, 0),
+(1005, 2025, 2026, 0),
+(1006, 2025, 2026, 0),
+(1007, 2025, 2026, 0),
+(1008, 2025, 2026, 0),
+(1009, 2025, 2026, 0),
+(1010, 2025, 2026, 0),
+(1011, 2025, 2026, 0),
+(1012, 2025, 2026, 0),
+(1013, 2025, 2026, 0);
+
 
