@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.progmproyect.util.daos.RenovacionDao; // Usamos este DAO ahora
-import com.progmproyect.util.modelos.Renovacion; // Y este Modelo
+import com.progmproyect.util.daos.RenovacionDao;
+import com.progmproyect.util.modelos.Renovacion;
 
 @WebServlet("/ReporteServlet")
 public class ReporteServlet extends HttpServlet {
